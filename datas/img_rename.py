@@ -1,26 +1,28 @@
 from os import listdir,system,makedirs
 from os.path import isfile, join,exists
 
-OLDFOLDER_PATH='/workspaces/Bio_LLM/datas/dataset'
-TARGETFOLDER_PATH='/workspaces/Bio_LLM/datas/dataset_v2'
+OLDFOLDER_PATH='/app/datas/raw_data/2_16add_screen_shot'
+TARGETFOLDER_PATH='/app/datas/dataset_add_02_16'
 
 onlyfiles = [f for f in listdir(OLDFOLDER_PATH) if isfile(join(OLDFOLDER_PATH,f))]
 
 print(len(onlyfiles))
 
 """
-0~16 104xxxx 104學測題
-17~33 105xxxx 105學測題
-34~49 106xxxx 106學測題
-50~456 001xxxx 講義練習題
-457~525 002xxxx 考卷練習題
+0~18 108xxxx 108學測題
+19~33 107xxxx 107學測題
+34~52 109xxxx 109學測題
+53~71 111xxxx 111學測題
+72~91 112xxxx 112學測題
+92~112 110xxxx  110學測題
 """
 header={
-    0:"104",
-    17:"105",
-    34:"106",
-    50:"001",
-    457:"002"
+    0:"108",
+    19:"107",
+    34:"109",
+    53:"111",
+    72:"112",
+    92:"110"
 }
 
 

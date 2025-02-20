@@ -8,6 +8,10 @@ ENV PYTHONUNBUFFERED=1 \
 # 建立工作目錄
 WORKDIR /app
 
+# 安裝系統依賴 (修復 OpenCV 相關錯誤)
+RUN update && apt install -y libgl1-mesa-glx\
+	libglib2.0-0\
+
 # 安裝額外的 Python 套件（若需要）
 COPY requirements.txt /app/
 RUN pip install --upgrade pip && pip install -r requirements.txt
