@@ -14,7 +14,7 @@ model.eval()
 # url = "https://raw.githubusercontent.com/vis-nlp/ChartQA/main/ChartQA%20Dataset/val/png/5090.png"
 
 # 讀取和處理圖像
-image_path = "/workspaces/Bio_LLM/datas/imgs/img2.png"
+image_path = "/app/datas/test_imgs/img2.png"
 image = Image.open(image_path).convert("RGB")
 # image = Image.open(requests.get(url, stream=True).raw)
 

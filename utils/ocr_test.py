@@ -2,6 +2,15 @@ import cv2
 import pytesseract
 import numpy as np
 from paddleocr import PaddleOCR
+from imgshow import imgshow
+from transformers import pipeline
+from transformers import AutoModel, AutoTokenizer
+
+
+# pip install paddleocr
+# pip install paddlepaddle-gpu==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
 # model = YOLO("/app/runs/detect/train12/weights/best.pt")
 
 # image_path = "/app/datas/test_imgs/113學測-1.png"
@@ -52,7 +61,9 @@ def ocr_tool(image:np.ndarray):
 def ocr_tool2(image:np.ndarray):
     # paddleocr need install
     # pip install paddlepaddle-gpu -i https://pypi.tuna.tsinghua.edu.cn/simple
-    
+    # apt install -y cuda-toolkit-12-6
+    # apt install -y libcudnn8 libcudnn8-dev
+
     print(f"image.shape:{image.shape}")
     def ensure_grayscale(image):    
         if len(image.shape) == 3:
@@ -60,16 +71,35 @@ def ocr_tool2(image:np.ndarray):
         return image
     
     gray = ensure_grayscale(image)
-    processed = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY, 11, 2)
-    processed = cv2.fastNlMeansDenoising(processed, h=30)
-    ocr=PaddleOCR(use_angle_cls=True,lang="ch")
-    text=ocr.ocr(image,cls=True)
+    processed=gray
+    processed = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
+    # _, binary = cv2.threshold(processed, 150, 255, cv2.THRESH_BINARY)
+    ocr=PaddleOCR(use_angle_cls=True, lang="ch", drop_score=0.1)
+    text=ocr.ocr(processed,cls=True)
     return text
+
+def corrector_by_chatglm3(text):
+    tokenizer = AutoTokenizer.from_pretrained("THUDM/chatglm3-6b", trust_remote_code=True)
+    model = AutoModel.from_pretrained("THUDM/chatglm3-6b", trust_remote_code=True).cuda()
+    input_text = "請修飾以下文字以符合台灣高中生物考題，不需要解題：" + text
+    response, history = model.chat(tokenizer, input_text, history=[])
+    return response
 
 
 if __name__=="__main__":
-    image_path = "/app/datas/test_imgs/113學測-1.png"
+    
+    image_path = "/app/datas/test_imgs/0223.png"
 
     image = cv2.imread(image_path)
+    # print(ocr_tool(image))
+    print("="*30)
 
-    print(ocr_tool2(image))
+    result=ocr_tool2(image)
+    ocr_text=""
+    for line in result:
+       for word_info in line:
+        ocr_text+= word_info[1][0] 
+    print(f"ocr_text : {ocr_text}")
+    
+
+    print(f"after corrector:{corrector_by_chatglm3(ocr_text)}")
