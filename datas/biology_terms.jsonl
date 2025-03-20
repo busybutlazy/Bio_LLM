@@ -1,0 +1,173 @@
+{"Instruction": "解釋專有名詞", "Input": "細胞", "Category": "bio", "Response": "為構成生物的基本單位。由細胞膜包圍，內含細胞質和遺傳物質。"}
+{"Instruction": "解釋專有名詞", "Input": "粒線體", "Category": "bio", "Response": "真核細胞內的雙層膜胞器，負責有氧呼吸，產生 ATP。"}
+{"Instruction": "解釋專有名詞", "Input": "光合作用", "Category": "bio", "Response": "植物、藻類及部分細菌利用光能將二氧化碳與水合成葡萄糖並釋放氧氣的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞膜", "Category": "bio", "Response": "由磷脂質雙層與蛋白質組成，控制物質進出細胞的屏障。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞核", "Category": "bio", "Response": "細胞內含有遺傳物質 DNA，控制細胞活動的胞器。"}
+{"Instruction": "解釋專有名詞", "Input": "核醣體", "Category": "bio", "Response": "由 RNA 和蛋白質組成的細胞器，負責蛋白質的合成。"}
+{"Instruction": "解釋專有名詞", "Input": "內質網", "Category": "bio", "Response": "真核細胞內的胞器，分為粗糙內質網（合成蛋白質）與平滑內質網（合成脂質）。"}
+{"Instruction": "解釋專有名詞", "Input": "高基氏體", "Category": "bio", "Response": "細胞內的胞器，負責修飾、儲存和運輸蛋白質。"}
+{"Instruction": "解釋專有名詞", "Input": "溶小體", "Category": "bio", "Response": "細胞內的胞器，含有水解酵素，負責分解廢棄物與老化細胞。"}
+{"Instruction": "解釋專有名詞", "Input": "葉綠體", "Category": "bio", "Response": "植物與藻類細胞內的雙層膜胞器，負責進行光合作用。"}
+{"Instruction": "解釋專有名詞", "Input": "中心體", "Category": "bio", "Response": "動物細胞與部分低等植物細胞內的胞器，與細胞分裂有關。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞質", "Category": "bio", "Response": "細胞膜內部的膠狀基質，包含胞器並進行細胞內代謝活動。"}
+{"Instruction": "解釋專有名詞", "Input": "染色體", "Category": "bio", "Response": "由 DNA 和蛋白質組成，攜帶遺傳訊息的結構。"}
+{"Instruction": "解釋專有名詞", "Input": "同化作用", "Category": "bio", "Response": "細胞內將小分子合成大分子的代謝過程，如光合作用。"}
+{"Instruction": "解釋專有名詞", "Input": "異化作用", "Category": "bio", "Response": "細胞內將大分子分解為小分子並釋放能量的代謝過程，如呼吸作用。"}
+{"Instruction": "解釋專有名詞", "Input": "有氧呼吸", "Category": "bio", "Response": "細胞利用氧氣分解葡萄糖以產生 ATP 的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "發酵作用", "Category": "bio", "Response": "細胞在無氧環境下分解葡萄糖以產生 ATP，如乳酸發酵與酒精發酵。"}
+{"Instruction": "解釋專有名詞", "Input": "核孔", "Category": "bio", "Response": "細胞核膜上的孔洞，允許 RNA 和蛋白質進出細胞核。"}
+{"Instruction": "解釋專有名詞", "Input": "核仁", "Category": "bio", "Response": "細胞核內的結構，與核醣體的形成有關。"}
+{"Instruction": "解釋專有名詞", "Input": "磷脂質雙層", "Category": "bio", "Response": "細胞膜的基本結構，由親水端與疏水端組成，形成選擇性通透屏障。"}
+{"Instruction": "解釋專有名詞", "Input": "醣蛋白", "Category": "bio", "Response": "細胞膜上的蛋白質與醣類結合而成的結構，參與細胞辨識與信號傳遞。"}
+{"Instruction": "解釋專有名詞", "Input": "膽固醇", "Category": "bio", "Response": "動物細胞膜中的脂質成分，能增加膜的穩定性並調節流動性。"}
+{"Instruction": "解釋專有名詞", "Input": "糖解作用", "Category": "bio", "Response": "細胞質中將葡萄糖分解成丙酮酸並釋放能量的過程，是細胞呼吸的第一步。"}
+{"Instruction": "解釋專有名詞", "Input": "卡爾文循環", "Category": "bio", "Response": "光合作用的碳反應，發生在葉綠體基質中，利用 ATP 和 NADPH 固定 CO₂，合成有機物。"}
+{"Instruction": "解釋專有名詞", "Input": "電子傳遞鏈", "Category": "bio", "Response": "粒線體內膜或葉綠體類囊體膜上的一系列蛋白質，負責傳遞電子並合成 ATP。"}
+{"Instruction": "解釋專有名詞", "Input": "克氏循環", "Category": "bio", "Response": "有氧呼吸的第二階段，在粒線體基質中進行，氧化丙酮酸並產生 CO₂、NADH、FADH₂。"}
+{"Instruction": "解釋專有名詞", "Input": "NADH", "Category": "bio", "Response": "細胞內的輔酶，在呼吸作用中攜帶電子至電子傳遞鏈以產生 ATP。"}
+{"Instruction": "解釋專有名詞", "Input": "FADH₂", "Category": "bio", "Response": "在克氏循環中產生的輔酶，攜帶電子至電子傳遞鏈。"}
+{"Instruction": "解釋專有名詞", "Input": "類囊體", "Category": "bio", "Response": "葉綠體內膜的扁平囊狀結構，含有光合色素，負責光反應。"}
+{"Instruction": "解釋專有名詞", "Input": "葉綠餅", "Category": "bio", "Response": "由多層類囊體疊合而成的結構，為光合作用的重要場所。"}
+{"Instruction": "解釋專有名詞", "Input": "伸縮泡", "Category": "bio", "Response": "淡水單細胞生物的胞器，負責排出多餘水分以維持滲透壓平衡。"}
+{"Instruction": "解釋專有名詞", "Input": "食泡", "Category": "bio", "Response": "細胞吞噬固體顆粒後形成的胞器，可與溶小體融合進行消化。"}
+{"Instruction": "解釋專有名詞", "Input": "質體", "Category": "bio", "Response": "細菌細胞內的小型環狀 DNA，可攜帶額外基因，如抗藥性基因。"}
+{"Instruction": "解釋專有名詞", "Input": "半自主性胞器", "Category": "bio", "Response": "指粒線體與葉綠體，因其具有自身 DNA 和核醣體，可部分自行合成蛋白質。"}
+{"Instruction": "解釋專有名詞", "Input": "選擇性通透膜", "Category": "bio", "Response": "指細胞膜允許特定物質通過，而阻擋其他物質進出的特性。"}
+{"Instruction": "解釋專有名詞", "Input": "受體蛋白", "Category": "bio", "Response": "細胞膜上的蛋白質，可與特定訊號分子結合，啟動細胞內訊號傳遞。"}
+{"Instruction": "解釋專有名詞", "Input": "運輸蛋白", "Category": "bio", "Response": "細胞膜上的蛋白質，協助離子或分子通過膜。"}
+{"Instruction": "解釋專有名詞", "Input": "滲透壓", "Category": "bio", "Response": "溶液中溶質濃度所產生的壓力，影響細胞的水分進出。"}
+{"Instruction": "解釋專有名詞", "Input": "水解酵素", "Category": "bio", "Response": "溶小體內的酶，負責分解生物大分子，如蛋白質、脂質與多醣。"}
+{"Instruction": "解釋專有名詞", "Input": "胞吞作用", "Category": "bio", "Response": "細胞膜凹陷包覆大分子或顆粒並內吞形成囊泡的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "胞吐作用", "Category": "bio", "Response": "細胞將囊泡內的物質釋放至細胞外的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "染色體", "Category": "bio", "Response": "由 DNA 和蛋白質組成，攜帶遺傳訊息，於細胞分裂時可見。"}
+{"Instruction": "解釋專有名詞", "Input": "中節", "Category": "bio", "Response": "染色體上較凹陷的小區域，將染色體分成兩個臂。"}
+{"Instruction": "解釋專有名詞", "Input": "著絲點", "Category": "bio", "Response": "染色體中節外側的區域，可連接紡錘絲，協助細胞分裂。"}
+{"Instruction": "解釋專有名詞", "Input": "等位基因", "Category": "bio", "Response": "位於同源染色體上相同位置、控制相同性狀的基因。"}
+{"Instruction": "解釋專有名詞", "Input": "同源染色體", "Category": "bio", "Response": "形態與大小相似的一對染色體，其中一條來自父親，另一條來自母親。"}
+{"Instruction": "解釋專有名詞", "Input": "複製染色分體", "Category": "bio", "Response": "由同一條染色體複製而來，以中節相連，形成二分體。"}
+{"Instruction": "解釋專有名詞", "Input": "體染色體", "Category": "bio", "Response": "與性別決定無關的染色體，例如人類的 1~22 對染色體。"}
+{"Instruction": "解釋專有名詞", "Input": "性染色體", "Category": "bio", "Response": "決定生物性別的染色體，如人類的 X 與 Y 染色體。"}
+{"Instruction": "解釋專有名詞", "Input": "雙套染色體 (2n)", "Category": "bio", "Response": "細胞內的染色體成對存在，如體細胞。"}
+{"Instruction": "解釋專有名詞", "Input": "單套染色體 (n)", "Category": "bio", "Response": "細胞內染色體為單一條，如配子細胞。"}
+{"Instruction": "解釋專有名詞", "Input": "核型", "Category": "bio", "Response": "經顯微鏡染色分析後得到的細胞染色體排列圖，可用於遺傳疾病診斷。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞週期", "Category": "bio", "Response": "細胞從新生到成長再到分裂成兩個細胞的完整過程。"}
+{"Instruction": "解釋專有名詞", "Input": "間期", "Category": "bio", "Response": "細胞週期的最長階段，細胞進行生長、DNA 複製與分裂準備。"}
+{"Instruction": "解釋專有名詞", "Input": "有絲分裂", "Category": "bio", "Response": "體細胞增殖方式，產生與母細胞相同的兩個子細胞。"}
+{"Instruction": "解釋專有名詞", "Input": "減數分裂", "Category": "bio", "Response": "生殖母細胞分裂方式，產生四個染色體數目減半的子細胞。"}
+{"Instruction": "解釋專有名詞", "Input": "無絲分裂", "Category": "bio", "Response": "原核生物或胞器的分裂方式，無染色體與紡錘絲形成，直接分裂。"}
+{"Instruction": "解釋專有名詞", "Input": "紡錘絲", "Category": "bio", "Response": "細胞分裂時形成的蛋白質纖維，協助染色體移動。"}
+{"Instruction": "解釋專有名詞", "Input": "赤道板", "Category": "bio", "Response": "細胞分裂時，染色體排列於細胞中央的一個虛擬平面。"}
+{"Instruction": "解釋專有名詞", "Input": "分裂溝", "Category": "bio", "Response": "動物細胞分裂後期，細胞膜向內凹陷形成的結構，導致細胞分裂。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞板", "Category": "bio", "Response": "植物細胞分裂時，於中央形成的隔膜，最終發展成細胞壁。"}
+{"Instruction": "解釋專有名詞", "Input": "四分體", "Category": "bio", "Response": "減數分裂時，由兩條同源染色體形成的結構，發生聯會與基因交換。"}
+{"Instruction": "解釋專有名詞", "Input": "幹細胞", "Category": "bio", "Response": "未分化或分化程度低的細胞，具有再生組織與器官的潛力。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞分化", "Category": "bio", "Response": "幹細胞在發育過程中形成不同類型細胞的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞特化", "Category": "bio", "Response": "細胞結構與功能變得專一化的過程，使其執行特定生理功能。"}
+{"Instruction": "解釋專有名詞", "Input": "顯微鏡", "Category": "bio", "Response": "用來放大微小物體，使其可見的光學儀器，常見類型包括複式顯微鏡與解剖顯微鏡。"}
+{"Instruction": "解釋專有名詞", "Input": "複式顯微鏡", "Category": "bio", "Response": "利用兩組透鏡（目鏡與物鏡）放大標本影像，適用於觀察細胞與微生物。"}
+{"Instruction": "解釋專有名詞", "Input": "解剖顯微鏡", "Category": "bio", "Response": "單組透鏡放大標本，適用於觀察昆蟲、植物或較大樣本。"}
+{"Instruction": "解釋專有名詞", "Input": "水埋玻片", "Category": "bio", "Response": "用於顯微觀察的標本製作方法，標本浸於水滴中並以蓋玻片覆蓋。"}
+{"Instruction": "解釋專有名詞", "Input": "染色劑", "Category": "bio", "Response": "用於染色細胞或組織，以提高顯微觀察的對比度。"}
+{"Instruction": "解釋專有名詞", "Input": "碘液", "Category": "bio", "Response": "常用於染色細胞核與澱粉粒，與澱粉結合呈現藍黑色。"}
+{"Instruction": "解釋專有名詞", "Input": "亞甲藍", "Category": "bio", "Response": "可染色細胞核，使其呈現深藍色。"}
+{"Instruction": "解釋專有名詞", "Input": "結晶紫", "Category": "bio", "Response": "用於細胞核染色，也可作為細菌染色劑。"}
+{"Instruction": "解釋專有名詞", "Input": "蘇丹四號", "Category": "bio", "Response": "專門染色脂肪，使其呈現紅色。"}
+{"Instruction": "解釋專有名詞", "Input": "目鏡測微器", "Category": "bio", "Response": "裝置於目鏡內部的微小刻度，用於測量樣本大小。"}
+{"Instruction": "解釋專有名詞", "Input": "載物臺測微器", "Category": "bio", "Response": "放置於載物臺上的標準刻度玻片，用於標定目鏡測微器的刻度。"}
+{"Instruction": "解釋專有名詞", "Input": "染色體", "Category": "bio", "Response": "由 DNA 和蛋白質組成，攜帶遺傳訊息的結構，在細胞分裂時可見。"}
+{"Instruction": "解釋專有名詞", "Input": "洋蔥根尖細胞", "Category": "bio", "Response": "常用於觀察細胞分裂的植物細胞，因根尖具有快速分裂區域。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞核", "Category": "bio", "Response": "控制細胞活動的結構，內含遺傳物質 DNA。"}
+{"Instruction": "解釋專有名詞", "Input": "視野", "Category": "bio", "Response": "顯微鏡觀察時可見的區域，倍率提高時視野變小。"}
+{"Instruction": "解釋專有名詞", "Input": "倍率", "Category": "bio", "Response": "顯微鏡的放大能力，計算方式為目鏡倍率 × 物鏡倍率。"}
+{"Instruction": "解釋專有名詞", "Input": "顯微測微技術", "Category": "bio", "Response": "利用顯微鏡與測微器測量微小樣本大小的方法。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞觀察", "Category": "bio", "Response": "透過顯微鏡與染色技術觀察細胞的形態與結構。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞染色", "Category": "bio", "Response": "使用染劑來強化細胞內部結構，以便於觀察。"}
+{"Instruction": "解釋專有名詞", "Input": "細胞核酸染色", "Category": "bio", "Response": "利用亞甲藍或結晶紫染色 DNA 或 RNA，以標示細胞內遺傳物質位置。"}
+{"Instruction": "解釋專有名詞", "Input": "孟德爾遺傳定律", "Category": "bio", "Response": "孟德爾透過碗豆雜交實驗提出的遺傳規則，包含分離律與獨立分配律，為遺傳學的基礎。"}
+{"Instruction": "解釋專有名詞", "Input": "分離律", "Category": "bio", "Response": "孟德爾的第一遺傳法則，指生物形成配子時，成對的等位基因會分離，各自進入不同的配子中。"}
+{"Instruction": "解釋專有名詞", "Input": "獨立分配律", "Category": "bio", "Response": "孟德爾的第二遺傳法則，指不同基因的等位基因在形成配子時，其分配互不影響，獨立組合。"}
+{"Instruction": "解釋專有名詞", "Input": "親代 (P)", "Category": "bio", "Response": "在遺傳學實驗中，最初進行交配的生物世代。"}
+{"Instruction": "解釋專有名詞", "Input": "第一子代 (F1)", "Category": "bio", "Response": "親代交配後所產生的後代。"}
+{"Instruction": "解釋專有名詞", "Input": "第二子代 (F2)", "Category": "bio", "Response": "第一子代互相交配後產生的後代。"}
+{"Instruction": "解釋專有名詞", "Input": "純品系", "Category": "bio", "Response": "經過多代自花授粉後，其性狀完全一致的個體，代表同型合子 (AA 或 aa)。"}
+{"Instruction": "解釋專有名詞", "Input": "表現型", "Category": "bio", "Response": "生物外顯的性狀，例如血型、高矮等。"}
+{"Instruction": "解釋專有名詞", "Input": "基因型", "Category": "bio", "Response": "生物細胞內的等位基因組合，例如 TT、Tt 或 tt。"}
+{"Instruction": "解釋專有名詞", "Input": "試交", "Category": "bio", "Response": "用隱性表徵個體與未知基因型的個體交配，以判斷後者的基因型。"}
+{"Instruction": "解釋專有名詞", "Input": "互交", "Category": "bio", "Response": "交換親代的性別以測試性狀是否與性別有關。"}
+{"Instruction": "解釋專有名詞", "Input": "反交", "Category": "bio", "Response": "將子代與親代交配，以檢測遺傳特徵。"}
+{"Instruction": "解釋專有名詞", "Input": "自交", "Category": "bio", "Response": "同一個體或相同品系內的個體互相交配。"}
+{"Instruction": "解釋專有名詞", "Input": "棋盤方格法", "Category": "bio", "Response": "由龐尼特 (Punnett) 提出的遺傳學工具，用於預測子代基因型與表現型機率。"}
+{"Instruction": "解釋專有名詞", "Input": "單基因遺傳", "Category": "bio", "Response": "某一性狀由單一基因座決定，如美人尖、單雙眼皮。"}
+{"Instruction": "解釋專有名詞", "Input": "多基因遺傳", "Category": "bio", "Response": "某一性狀受多對基因影響，呈現連續性變異，如身高、膚色。"}
+{"Instruction": "解釋專有名詞", "Input": "複等位基因遺傳", "Category": "bio", "Response": "某性狀的基因座上有三種以上的等位基因，如 ABO 血型。"}
+{"Instruction": "解釋專有名詞", "Input": "顯隱性遺傳", "Category": "bio", "Response": "兩等位基因相遇時，顯性基因決定性狀，而隱性基因不表現。"}
+{"Instruction": "解釋專有名詞", "Input": "中間型遺傳", "Category": "bio", "Response": "異型合子表現出兩種同型合子的中間性狀，如紅花、粉紅花、白花。"}
+{"Instruction": "解釋專有名詞", "Input": "等顯性遺傳", "Category": "bio", "Response": "異型合子同時表現兩種等位基因的性狀，如 ABO 血型中的 IA 與 IB。"}
+{"Instruction": "解釋專有名詞", "Input": "體染色體遺傳", "Category": "bio", "Response": "位於體染色體上的基因影響性狀，與性別無關。"}
+{"Instruction": "解釋專有名詞", "Input": "性聯遺傳", "Category": "bio", "Response": "基因位於性染色體上，影響性狀表現，如紅綠色盲、血友病。"}
+{"Instruction": "解釋專有名詞", "Input": "基因聯鎖", "Category": "bio", "Response": "位於同一條染色體上的基因傾向於一起遺傳，除非發生基因重組。"}
+{"Instruction": "解釋專有名詞", "Input": "血型遺傳", "Category": "bio", "Response": "人類 ABO 血型由 IA、IB、i 三種等位基因決定，O 型為隱性。"}
+{"Instruction": "解釋專有名詞", "Input": "染色體遺傳學說", "Category": "bio", "Response": "1903 年由薩登與包法利提出，指出基因位於染色體上。"}
+{"Instruction": "解釋專有名詞", "Input": "DNA 雙股螺旋", "Category": "bio", "Response": "1953 年由華生與克立克發現，DNA 由兩條互補股構成螺旋結構。"}
+{"Instruction": "解釋專有名詞", "Input": "查加夫法則", "Category": "bio", "Response": "DNA 內腺嘌呤 (A) 的數量等於胸腺嘧啶 (T)，鳥嘌呤 (G) 等於胞嘧啶 (C)。"}
+{"Instruction": "解釋專有名詞", "Input": "RNA", "Category": "bio", "Response": "核糖核酸，與 DNA 不同，通常為單股，含有尿嘧啶 (U) 取代胸腺嘧啶 (T)。"}
+{"Instruction": "解釋專有名詞", "Input": "DNA 複製", "Category": "bio", "Response": "細胞分裂前，DNA 透過半保留複製機制，產生兩條相同的 DNA 分子。"}
+{"Instruction": "解釋專有名詞", "Input": "半保留複製", "Category": "bio", "Response": "DNA 雙股解開後，每股作為模板，合成新的互補股，形成兩條新舊股混合的 DNA。"}
+{"Instruction": "解釋專有名詞", "Input": "解旋酶", "Category": "bio", "Response": "負責打開 DNA 雙股螺旋的酵素，使其進入複製過程。"}
+{"Instruction": "解釋專有名詞", "Input": "DNA 聚合酶", "Category": "bio", "Response": "催化 DNA 核苷酸聚合，負責 DNA 合成的酵素。"}
+{"Instruction": "解釋專有名詞", "Input": "連接酶", "Category": "bio", "Response": "將 DNA 片段 (如岡崎片段) 連接起來，形成完整的 DNA 分子。"}
+{"Instruction": "解釋專有名詞", "Input": "分子生物學中心法則", "Category": "bio", "Response": "基因表現的基本流程：DNA 轉錄為 RNA，再轉譯為蛋白質。"}
+{"Instruction": "解釋專有名詞", "Input": "轉錄", "Category": "bio", "Response": "RNA 聚合酶以 DNA 為模板，合成 RNA 的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "RNA 聚合酶", "Category": "bio", "Response": "負責催化 RNA 合成的酵素，將 DNA 轉錄為 RNA。"}
+{"Instruction": "解釋專有名詞", "Input": "mRNA (傳訊 RNA)", "Category": "bio", "Response": "攜帶 DNA 遺傳資訊的 RNA，指導蛋白質合成。"}
+{"Instruction": "解釋專有名詞", "Input": "tRNA (轉運 RNA)", "Category": "bio", "Response": "攜帶特定胺基酸並與 mRNA 密碼子互補配對，參與蛋白質合成。"}
+{"Instruction": "解釋專有名詞", "Input": "rRNA (核醣體 RNA)", "Category": "bio", "Response": "構成核醣體的主要成分，協助蛋白質合成。"}
+{"Instruction": "解釋專有名詞", "Input": "密碼子", "Category": "bio", "Response": "mRNA 上的三個連續核苷酸，對應特定胺基酸或終止訊號。"}
+{"Instruction": "解釋專有名詞", "Input": "起始密碼子", "Category": "bio", "Response": "mRNA 上的 AUG，標誌轉譯的開始，對應甲硫氨酸。"}
+{"Instruction": "解釋專有名詞", "Input": "終止密碼子", "Category": "bio", "Response": "UAA、UAG、UGA，標誌轉譯結束，無對應胺基酸。"}
+{"Instruction": "解釋專有名詞", "Input": "轉譯", "Category": "bio", "Response": "核醣體根據 mRNA 密碼子序列合成蛋白質的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "核醣體", "Category": "bio", "Response": "細胞內負責蛋白質合成的胞器，由 rRNA 和蛋白質組成。"}
+{"Instruction": "解釋專有名詞", "Input": "胜肽轉位酶", "Category": "bio", "Response": "催化胺基酸間肽鍵形成的酵素，在轉譯過程中作用。"}
+{"Instruction": "解釋專有名詞", "Input": "環境因子影響基因表現", "Category": "bio", "Response": "某些基因表現會受到環境影響，例如喜馬拉雅兔的毛色變化。"}
+{"Instruction": "解釋專有名詞", "Input": "遺傳變異", "Category": "bio", "Response": "基因複製錯誤導致 DNA 突變，可能影響基因表現與性狀。"}
+{"Instruction": "解釋專有名詞", "Input": "激素影響基因表現", "Category": "bio", "Response": "生物體內的賀爾蒙可影響基因的開啟與關閉，導致細胞分化與特化。"}
+{"Instruction": "解釋專有名詞", "Input": "環境賀爾蒙", "Category": "bio", "Response": "某些環境污染物與賀爾蒙類似，可干擾內分泌系統並影響基因表現。"}
+{"Instruction": "解釋專有名詞", "Input": "基因轉殖技術", "Category": "bio", "Response": "將特定外源基因轉入目標生物，使其能表現該基因的技術，常用於生物工程與醫學。"}
+{"Instruction": "解釋專有名詞", "Input": "基改生物 (GMO)", "Category": "bio", "Response": "經過基因轉殖技術改造的生物，例如基因轉殖動物、植物與細菌。"}
+{"Instruction": "解釋專有名詞", "Input": "外源基因", "Category": "bio", "Response": "來自不同生物或人工合成的基因，插入目標生物內以產生特定性狀。"}
+{"Instruction": "解釋專有名詞", "Input": "載體", "Category": "bio", "Response": "攜帶外源基因進入細胞的媒介，如病毒、農桿菌、細菌質體等。"}
+{"Instruction": "解釋專有名詞", "Input": "限制酶", "Category": "bio", "Response": "能辨識特定 DNA 序列並進行切割的酵素，用於基因工程。"}
+{"Instruction": "解釋專有名詞", "Input": "DNA 連接酶", "Category": "bio", "Response": "將 DNA 片段連接起來的酵素，用於 DNA 修復與基因重組。"}
+{"Instruction": "解釋專有名詞", "Input": "報導基因", "Category": "bio", "Response": "用於檢測基因轉殖是否成功的基因，例如螢光蛋白基因。"}
+{"Instruction": "解釋專有名詞", "Input": "基因轉殖動物", "Category": "bio", "Response": "透過基因工程技術改造的動物，如產生人類蛋白的乳牛。"}
+{"Instruction": "解釋專有名詞", "Input": "基因轉殖植物", "Category": "bio", "Response": "經過基因轉殖的植物，如抗病、抗蟲的轉基因作物。"}
+{"Instruction": "解釋專有名詞", "Input": "基因轉殖細菌", "Category": "bio", "Response": "透過基因工程改造的細菌，如可生產胰島素的大腸桿菌。"}
+{"Instruction": "解釋專有名詞", "Input": "電穿孔", "Category": "bio", "Response": "利用電場在細胞膜上產生暫時孔洞，讓 DNA 進入細胞的技術。"}
+{"Instruction": "解釋專有名詞", "Input": "顯微注射", "Category": "bio", "Response": "使用極細針頭將 DNA 直接注入細胞或細胞核的方法。"}
+{"Instruction": "解釋專有名詞", "Input": "基因槍", "Category": "bio", "Response": "利用金屬微粒攜帶 DNA，透過高壓將基因射入細胞內的方法。"}
+{"Instruction": "解釋專有名詞", "Input": "CRISPR/Cas9", "Category": "bio", "Response": "一種基因編輯技術，可針對特定 DNA 序列進行切割與修飾。"}
+{"Instruction": "解釋專有名詞", "Input": "gRNA (嚮導 RNA)", "Category": "bio", "Response": "引導 Cas9 辨識並切割特定位點的 RNA 序列。"}
+{"Instruction": "解釋專有名詞", "Input": "DNA 粗萃取", "Category": "bio", "Response": "透過物理與化學方法從生物樣本中提取 DNA，如奇異果 DNA 萃取實驗。"}
+{"Instruction": "解釋專有名詞", "Input": "組蛋白", "Category": "bio", "Response": "與 DNA 結合的蛋白質，協助 DNA 包裝成染色質。"}
+{"Instruction": "解釋專有名詞", "Input": "抗凝血劑", "Category": "bio", "Response": "防止血液凝固的化學物質，如檸檬酸鈉，常用於 DNA 萃取。"}
+{"Instruction": "解釋專有名詞", "Input": "演化", "Category": "bio", "Response": "生物隨時間產生遺傳變異，逐漸改變其性狀的過程，通常發生於許多世代之間。"}
+{"Instruction": "解釋專有名詞", "Input": "用進廢退說", "Category": "bio", "Response": "生物若經常使用某器官則會變發達，若不使用則會退化，並且此改變可遺傳給後代。"}
+{"Instruction": "解釋專有名詞", "Input": "種質論", "Category": "bio", "Response": "體細胞的變化無法遺傳，只有生殖細胞的變異才會遺傳。"}
+{"Instruction": "解釋專有名詞", "Input": "天擇說", "Category": "bio", "Response": "達爾文提出的理論，認為環境篩選出適應者，使其存活並繁殖，而不適應者被淘汰。"}
+{"Instruction": "解釋專有名詞", "Input": "共同祖先", "Category": "bio", "Response": "所有生物皆源自於同一個祖先，經過演化分化為不同物種。"}
+{"Instruction": "解釋專有名詞", "Input": "物競天擇", "Category": "bio", "Response": "生物為了有限的資源而競爭，適應環境者存活，適應性低者被淘汰。"}
+{"Instruction": "解釋專有名詞", "Input": "種化作用", "Category": "bio", "Response": "一個族群因地理隔離與遺傳變異，逐漸形成新物種的過程。"}
+{"Instruction": "解釋專有名詞", "Input": "適者生存", "Category": "bio", "Response": "演化過程中，具有有利性狀的個體較容易存活與繁殖。"}
+{"Instruction": "解釋專有名詞", "Input": "突變", "Category": "bio", "Response": "DNA 序列發生改變，可能影響生物性狀，為遺傳多樣性的來源之一。"}
+{"Instruction": "解釋專有名詞", "Input": "同源器官", "Category": "bio", "Response": "不同物種間由共同祖先遺傳而來，具有相似構造但可能不同功能的器官，例如人的手臂與鯨魚的鰭狀肢。"}
+{"Instruction": "解釋專有名詞", "Input": "痕跡器官", "Category": "bio", "Response": "因演化退化而無功能或功能極微的器官，如人的闌尾、蛇的殘存後肢骨。"}
+{"Instruction": "解釋專有名詞", "Input": "同功器官", "Category": "bio", "Response": "不同物種間，構造不同但功能相同的器官，例如蝙蝠的翅與昆蟲的翅膀。"}
+{"Instruction": "解釋專有名詞", "Input": "指時化石", "Category": "bio", "Response": "出現在特定地層時期的化石，可用來推測地層年代。"}
+{"Instruction": "解釋專有名詞", "Input": "指相化石", "Category": "bio", "Response": "反映特定環境條件的化石，可用來推測過去的生態環境。"}
+{"Instruction": "解釋專有名詞", "Input": "生物地理學", "Category": "bio", "Response": "研究生物在地理上的分布模式，並探討其演化歷史。"}
+{"Instruction": "解釋專有名詞", "Input": "種源中心", "Category": "bio", "Response": "某種生物最早出現並開始向外擴散的地點，通常可透過生物地理學研究判定。"}
+{"Instruction": "解釋專有名詞", "Input": "病毒", "Category": "bio", "Response": "介於生物與非生物之間的物體，具有遺傳物質但無細胞構造，必須寄生於活細胞內才能繁殖。"}
+{"Instruction": "解釋專有名詞", "Input": "噬菌體", "Category": "bio", "Response": "感染細菌的病毒，通常具有頭部與尾部結構，可專一感染特定細菌。"}
+{"Instruction": "解釋專有名詞", "Input": "溶解性感染", "Category": "bio", "Response": "病毒感染宿主後，迅速增殖並破壞宿主細胞，使病毒釋放並感染新宿主。"}
+{"Instruction": "解釋專有名詞", "Input": "潛溶性感染", "Category": "bio", "Response": "病毒 DNA 嵌入宿主細胞的基因組內，當宿主分裂時複製病毒 DNA，遇適當條件後可能進入溶解性週期。"}
+{"Instruction": "解釋專有名詞", "Input": "雙倍體病毒", "Category": "bio", "Response": "少數病毒如 HIV 具有兩條 RNA 鏈，與一般僅有單條核酸的病毒不同。"}
