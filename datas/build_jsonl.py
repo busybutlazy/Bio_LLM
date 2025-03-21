@@ -38,8 +38,10 @@ def make_jsonl_from_gpt(csv_path,target_jsonl_path,cloume='Input',start_line=0):
     
     with open(csv_path,newline='')as csvfile:
         reader= csv.DictReader(csvfile)
-        with open(target_jsonl_path,"w",encoding="utf-8")as f:
+        with open(target_jsonl_path,"a",encoding="utf-8")as f:
             for row in reader:
+                counter +=1
+                
                 if counter<start_line:
                     continue
                 
@@ -67,4 +69,4 @@ def make_jsonl_from_gpt(csv_path,target_jsonl_path,cloume='Input',start_line=0):
 csv_path="/app/datas/bio_terms_csv.csv"
 jsonl_path="/app/datas/biology_terms_from_gpt.jsonl"
 
-# make_jsonl_from_gpt(csv_path,jsonl_path)
+make_jsonl_from_gpt(csv_path,jsonl_path,start_line=445)
