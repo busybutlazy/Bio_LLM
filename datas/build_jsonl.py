@@ -33,7 +33,7 @@ client = openai.OpenAI(api_key=api_key)
 print(api_key)
 
 
-def make_jsonl_from_gpt(csv_path,target_jsonl_path,cloume='Input',start_line=0):
+def gpt_explain_simple (csv_path,target_jsonl_path,cloume='Input',start_line=0):
     counter = 0
     
     with open(csv_path,newline='')as csvfile:
@@ -54,7 +54,7 @@ def make_jsonl_from_gpt(csv_path,target_jsonl_path,cloume='Input',start_line=0):
                     answer = response.choices[0].message.content
                 
                     jsonl_entry = {
-                        "Instruction": "解釋專有名詞",
+                        "Instruction": "簡介專有名詞",
                         "Input": row[cloume],
                         "Category": "bio",
                         "Response": answer
@@ -66,7 +66,41 @@ def make_jsonl_from_gpt(csv_path,target_jsonl_path,cloume='Input',start_line=0):
                 
                 print(f"已完成查詢{row[cloume]}")
 
+def gpt_explain_detailed(sorce_jsonl_path,target_jsonl_path,cloume='Input',start_line=0):
+    counter = 0
+    with open("sorce_jsonl_path", "r", encoding="utf-8") as f:
+        data = [json.loads(line) for line in f]
+
+        
+        # with open(target_jsonl_path,"a",encoding="utf-8")as f:
+        #     for row in reader:
+        #         counter +=1
+                
+        #         if counter<start_line:
+        #             continue
+                
+        #         try:
+        #             prompt = f"請用繁體中文提供「{row[cloume]}」的簡短定義，50~100字，需來自維基百科或權威資料。"
+        #             response = client.chat.completions.create(
+        #                 model="gpt-4-turbo",
+        #                 messages=[{"role": "user", "content": prompt}]
+        #             )
+        #             answer = response.choices[0].message.content
+                
+        #             jsonl_entry = {
+        #                 "Instruction": "簡介專有名詞",
+        #                 "Input": row[cloume],
+        #                 "Category": "bio",
+        #                 "Response": answer
+        #             }
+
+        #             f.write(json.dumps(jsonl_entry,ensure_ascii=False)+"\n")
+        #         except Exception as e:
+        #             print(f"Error processing {row[cloume]}")
+                
+        #         print(f"已完成查詢{row[cloume]}")
+
 csv_path="/app/datas/bio_terms_csv.csv"
 jsonl_path="/app/datas/biology_terms_from_gpt.jsonl"
 
-make_jsonl_from_gpt(csv_path,jsonl_path,start_line=445)
+# gpt_explain_simple (csv_path,jsonl_path,start_line=445)
