@@ -31,7 +31,13 @@ BioTutor-AI 是一個結合語言模型（LLM）、電腦視覺與光學文字�
 
 ### 🔷 模型微調
 
-- 使用模型：`Llama-3-Taiwan-8B-Instruct`
+- 本專案使用的語言模型基於 Hugging Face 上的開源模型：
+
+- [`yentinglin/Llama-3-Taiwan-8B-Instruct`](https://huggingface.co/yentinglin/Llama-3-Taiwan-8B-Instruct)
+
+--此模型為 LLaMA 3 架構下，經指令微調以支援繁體中文任務的 Instruct 模型，適合應用於臺灣在地教學語境。
+--本專案進一步以臺灣高中生物課程內容建構資料集，採用 LoRA + PEFT 技術進行微調，使模型具備解釋生物名詞、圖文題目分析與生成教學語氣答題解析的能力。
+
 - 微調方法：LoRA + PEFT（記憶體最佳化）
 - 訓練目標：生成具有高中生物風格的名詞解釋與題目解析
 
