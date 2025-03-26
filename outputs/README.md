@@ -31,10 +31,9 @@
 
 | Metric        | Value     |
 |---------------|-----------|
-| Accuracy      | 84.6%     |
-| F1 Score      | 0.82      |
-| Exact Match   | 75.3%     |
-| BLEU (short)  | 0.68      |
+| Precision     | 0.7037    |
+| F1 Score      | 0.7246    |
+| Recall        | 0.7544    |
 
 ※利用bert_score判斷生成文字與原始資料的差異，初步測試隨機50筆任務與資料
 
