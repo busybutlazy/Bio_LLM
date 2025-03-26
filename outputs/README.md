@@ -1,7 +1,5 @@
 # 📂 outputs/
 
-# 📂 outputs/
-
 此資料夾用於儲存模型訓練與評估的輸出結果，例如：
 
 - 微調後模型的 checkpoint
