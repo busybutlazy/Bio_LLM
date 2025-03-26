@@ -9,7 +9,7 @@ from datetime import datetime
 
 # ==== CONFIG ====
 BASE_MODEL = "yentinglin/Llama-3-Taiwan-8B-Instruct"
-LORA_PATH = "./lora-bio-checkpoint-final"
+LORA_PATH = "/app/outputs/lora-bio-checkpoint-final"
 VAL_PATH = "/app/datas/eval.jsonl"
 MAX_NEW_TOKENS = 512
 MAX_EVAL_SAMPLES=50
@@ -91,10 +91,10 @@ print(f"F1 Score : {F1.mean():.4f}")
 
 nowtime=datetime.now().strftime("%m%d%H%M")
 # ==== (Optional) Save report ====
-with open(f"/app/evaluate_result/eval_result{nowtime}.csv", "w", encoding="utf-8") as f:
+with open(f"/app/outputs/evaluate_result/eval_result{nowtime}.csv", "w", encoding="utf-8") as f:
     f.write("instruction,input,reference,prediction,F1\n")
     for i in range(len(data)):
         row = f'"{data[i]["instruction"]}","{data[i]["input"]}","{references[i]}","{predictions[i]}",{F1[i].item():.4f}\n'
         f.write(row)
 
-print(f"\n📄 已儲存詳細結果至 /app/evaluate_result/eval_result{nowtime}.csv ✅")
+print(f"\n📄 已儲存詳細結果至 /app/outputs/evaluate_result/eval_result{nowtime}.csv ✅")

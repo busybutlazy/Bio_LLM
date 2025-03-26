@@ -1,8 +1,8 @@
 {
     "base_model": "yentinglin/Llama-3-Taiwan-8B-Instruct",
-    "train_file": "./datas/train.jsonl",
-    "eval_file": "./datas/eval.jsonl",
-    "output_dir": "./lora-bio-checkpoint",
+    "train_file": "/app/datas/train.jsonl",
+    "eval_file": "/app/datas/eval.jsonl",
+    "output_dir": "/app/outputs/lora-bio-checkpoint",
     "num_train_epochs": 3,
     "per_device_train_batch_size": 1,
     "per_device_eval_batch_size": 1,
