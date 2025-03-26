@@ -10,7 +10,7 @@ from datetime import datetime
 # ==== CONFIG ====
 BASE_MODEL = "yentinglin/Llama-3-Taiwan-8B-Instruct"
 LORA_PATH = "/app/outputs/lora-bio-checkpoint-final"
-VAL_PATH = "/app/datas/eval.jsonl"
+VAL_PATH = "/app/datas/json/eval.jsonl"
 MAX_NEW_TOKENS = 512
 MAX_EVAL_SAMPLES=50
 

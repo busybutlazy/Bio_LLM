@@ -1,3 +1,7 @@
 .env
 outputs/*
 !outputs/README.md
+!outputs/results.png
+!outputs/sample_detect_1.jpg
+!outputs/sample_detect_2.jpg
+!outputs/yolo_confusion_matrix.png
