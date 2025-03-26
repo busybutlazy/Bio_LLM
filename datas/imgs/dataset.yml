@@ -1,0 +1,6 @@
+path: /app/datas/imgs/dataset_split
+train: images/train
+val: images/val
+nc: 14
+names: ['question','question_number','question_stem','option','diagram','chart','table','sub_question','sub_question_stem','sub_quesiton_option','sub_question_number','header','footer','irrelevant']
+
