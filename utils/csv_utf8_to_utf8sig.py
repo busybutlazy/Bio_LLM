@@ -12,6 +12,6 @@ def utf8_to_utf8sig(source_path,target_path):
 
 
 
-source_path="/app/evaluate_result/eval_result03251604.csv"
-target_path="/app/evaluate_result/eval_result03251604_ver2.csv"
+source_path="/app/outputs/evaluate_result/eval_result03260857.csv"
+target_path="/app/outputs/evaluate_result/eval_result03260857_ver2.csv"
 utf8_to_utf8sig(source_path,target_path)
