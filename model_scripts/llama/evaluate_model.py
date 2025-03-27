@@ -1,19 +1,21 @@
 import json
 import torch
 import random
-from transformers import AutoTokenizer, AutoModelForCausalLM,BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM,BitsAndBytesConfig,logging
 from peft import PeftModel
 from bert_score import score
 from tqdm import tqdm
 from datetime import datetime
+
+logging.set_verbosity_error()
 
 # ==== CONFIG ====
 BASE_MODEL = "yentinglin/Llama-3-Taiwan-8B-Instruct"
 LORA_PATH = "/app/outputs/lora-bio-checkpoint-final"
 VAL_PATH = "/app/datas/json/all_datas.jsonl"
 MAX_NEW_TOKENS = 512
-MAX_EVAL_SAMPLES=None
-EPOCH=3
+MAX_EVAL_SAMPLES=5
+EPOCH=1
 
 # ==== Load Model ====
 print("🔧 Loading model...")
@@ -39,7 +41,6 @@ model.eval()
 
 
 
-nowtime=datetime.now().strftime("%m%d%H%M")
 
 # ==== Load Data ====
 print("📚 Loading validation data...")
@@ -83,6 +84,18 @@ for i in range(EPOCH):
         predictions.append(response)
         references.append(ref_output)
 
+    
+    # ==== (Optional) Save report ====
+    nowtime=datetime.now().strftime("%m%d%H%M")
+    with open(f"/app/outputs/evaluate_result/eval_result{nowtime}.csv", "w", encoding="utf-8-sig") as f:
+        f.write("instruction,input,reference,prediction\n")
+        for i in range(len(data)):
+            references[i]=references[i].replace('\n','\\n').replace('\\\\\\n','\\n')
+            predictions[i]=predictions[i].replace('\n','\\n').replace('\\\\\\n','\\n')
+            row = f'"{data[i]["instruction"]}","{data[i]["input"]}","{references[i]}","{predictions[i]}"\n'
+            f.write(row)
+
+
     # ==== Compute BERTScore ====
     print("📏 Calculating BERTScore...")
     P, R, F1 = score(predictions, references, lang="zh", model_type="bert-base-chinese")
@@ -93,12 +106,6 @@ for i in range(EPOCH):
     print(f"F1 Score : {F1.mean():.4f}")
 
 
-
-    # ==== (Optional) Save report ====
-    with open(f"/app/outputs/evaluate_result/eval_result{nowtime}.csv", "w", encoding="utf-8") as f:
-        f.write("instruction,input,reference,prediction,F1\n")
-        for i in range(len(data)):
-            row = f'"{data[i]["instruction"]}","{data[i]["input"]}","{references[i]}","{predictions[i]}",{F1[i].item():.4f}\n'
-            f.write(row)
+    
 
     print(f"\n📄 已儲存詳細結果至 /app/outputs/evaluate_result/eval_result{nowtime}.csv ✅")
