@@ -14,7 +14,7 @@ BASE_MODEL = "yentinglin/Llama-3-Taiwan-8B-Instruct"
 LORA_PATH = "/app/outputs/lora-bio-checkpoint-final"
 VAL_PATH = "/app/datas/json/all_datas.jsonl"
 MAX_NEW_TOKENS = 512
-MAX_EVAL_SAMPLES=5
+MAX_EVAL_SAMPLES=None
 EPOCH=1
 
 # ==== Load Model ====
@@ -94,7 +94,7 @@ for i in range(EPOCH):
             predictions[i]=predictions[i].replace('\n','\\n').replace('\\\\\\n','\\n')
             row = f'"{data[i]["instruction"]}","{data[i]["input"]}","{references[i]}","{predictions[i]}"\n'
             f.write(row)
-
+    # print(f"\n📄 已儲存詳細結果至 /app/outputs/evaluate_result/eval_result{nowtime}.csv ✅")
 
     # ==== Compute BERTScore ====
     print("📏 Calculating BERTScore...")
@@ -108,4 +108,3 @@ for i in range(EPOCH):
 
     
 
-    print(f"\n📄 已儲存詳細結果至 /app/outputs/evaluate_result/eval_result{nowtime}.csv ✅")

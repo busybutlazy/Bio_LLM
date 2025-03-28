@@ -57,10 +57,10 @@ def gpt_explain_simple(csv_path,target_jsonl_path,cloume='Input',start_line=0):
 
 def gpt_explain_detailed(sorce_jsonl_path,target_jsonl_path,start_line=0):
     counter = 0
-    with open(sorce_jsonl_path, "r", encoding="utf-8") as sorce_f:
+    with open(sorce_jsonl_path, "r", encoding="utf-8") as source_f:
         with open(target_jsonl_path,"a",encoding="utf-8")as target_f:
             try:
-                for line in sorce_f:
+                for line in source_f:
                     line_json=json.loads(line)
                     counter+=1
                     if counter<start_line:
@@ -99,9 +99,9 @@ def combine_all_jsonl(source_paths:list,target_path:str):
     
     with open(target_path,"w",encoding="utf-8")as target_f:
         for sorce_path in source_paths:
-            with open(sorce_path,'r',encoding="utf-8") as sorce_f:
+            with open(sorce_path,'r',encoding="utf-8") as source_f:
                 try:
-                    for line in sorce_f:
+                    for line in source_f:
                         line_json=json.loads(line)
                         target_f.write(json.dumps(line_json,ensure_ascii=False)+"\n")
 
@@ -118,11 +118,11 @@ def creat_train_eval(source_paths:list,eval_ratio=0.2,shuffle=True):
 
     
     for sorce_path in source_paths:
-        with open(sorce_path,'r',encoding="utf-8") as sorce_f:
+        with open(sorce_path,'r',encoding="utf-8") as source_f:
             lines=[]
             
             try:
-                for line in sorce_f:
+                for line in source_f:
                     line_json=json.loads(line)
                     lines.append(line_json)
 
