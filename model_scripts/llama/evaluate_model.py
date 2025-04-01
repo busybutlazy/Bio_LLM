@@ -6,6 +6,7 @@ from peft import PeftModel
 from bert_score import score
 from tqdm import tqdm
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 logging.set_verbosity_error()
 
@@ -14,8 +15,9 @@ BASE_MODEL = "yentinglin/Llama-3-Taiwan-8B-Instruct"
 LORA_PATH = "/app/outputs/dpo_bio_lora_output"
 VAL_PATH = "/app/datas/json/all_datas.jsonl"
 MAX_NEW_TOKENS = 256
-MAX_EVAL_SAMPLES=10
+MAX_EVAL_SAMPLES=50
 EPOCH=1
+TIMEZONE="Asia/Taipei"
 
 # ==== Load Model ====
 print("🔧 Loading model...")
@@ -86,7 +88,7 @@ for i in range(EPOCH):
 
     
     # ==== (Optional) Save report ====
-    nowtime=datetime.now().strftime("%m%d%H%M")
+    nowtime=datetime.now(ZoneInfo(TIMEZONE)).strftime("%m%d%H%M")
     with open(f"/app/outputs/evaluate_result/eval_result{nowtime}.csv", "w", encoding="utf-8-sig") as f:
         f.write("instruction,input,reference,prediction\n")
         for i in range(len(data)):
