@@ -11,10 +11,10 @@ logging.set_verbosity_error()
 
 # ==== CONFIG ====
 BASE_MODEL = "yentinglin/Llama-3-Taiwan-8B-Instruct"
-LORA_PATH = "/app/outputs/lora-bio-checkpoint-final"
+LORA_PATH = "/app/outputs/dpo_bio_lora_output"
 VAL_PATH = "/app/datas/json/all_datas.jsonl"
-MAX_NEW_TOKENS = 512
-MAX_EVAL_SAMPLES=None
+MAX_NEW_TOKENS = 256
+MAX_EVAL_SAMPLES=10
 EPOCH=1
 
 # ==== Load Model ====
@@ -58,7 +58,7 @@ for i in range(EPOCH):
     predictions = []
     references = []
 
-    print(f"🚀 Generating predictions...Epoch:{i+1}/{EPOCH+1}")
+    print(f"🚀 Generating predictions...Epoch:{i+1}/{EPOCH}")
 
     for item in tqdm(data):
         instruction = item["instruction"]

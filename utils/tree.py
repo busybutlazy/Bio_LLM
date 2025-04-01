@@ -1,4 +1,6 @@
 from pathlib import Path
+import os
+import argparse
 
 # prefix components:
 space =  '    '
@@ -26,7 +28,25 @@ def tree(dir_path: Path, prefix: str='',layer=300):
             # i.e. space because last, └── , above so no more |
             yield from tree(path, prefix=prefix+extension,layer=layer-1)
 
-root="/app"
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Print directory tree")
+    parser.add_argument(
+        "--path", 
+        type=str, 
+        default=".", 
+        help="Root path to generate tree from (default: current directory)"
+    )
+    parser.add_argument(
+        "--depth", 
+        type=int, 
+        default=2, 
+        help="Depth of tree (default: 2)"
+    )
+    args = parser.parse_args()
 
-for line in tree(Path(root),"",2):
-    print(line)
+    root_path = Path(args.path).resolve()
+    depth = args.depth
+
+    print(root_path.name)
+    for line in tree(root_path, '', layer=depth):
+        print(line)
